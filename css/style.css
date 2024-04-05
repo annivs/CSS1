@@ -1,0 +1,210 @@
+@font-face {
+    font-family:Ubuntu;
+    src: url("Ubuntu-Regular.ttf")format("truetype");
+}
+
+html {
+    font-family: "Ubuntu";
+}
+body {
+    background-image: url("https://facts.net/wp-content/uploads/2023/06/Female-hands-with-different-cotton-candy-on-color-background.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0em;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 4em;
+    color:black;
+}
+
+.header a {
+    color:black;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 1em;
+}
+
+.header a:hover {
+    color:black;
+    background-color: rgb(241,240,242);
+}
+.koti {
+    display: grid;
+    grid-template-areas:
+        'title'
+        'tuotteet';
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.koti h2 {
+    grid-area: title;
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em;
+    margin: 1em;
+    color:black;
+    background-color:rgba(238, 137, 152);
+    border: outset 1px rgba(238, 137, 152, 0.2);
+    border-radius: 10px;
+}
+.kotiboksi {
+    font-size: 1em;
+    display: grid;
+    grid-template-areas:
+        'img, koti';
+    padding: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    background-color: rgba(58, 58, 58, 0.2);
+    border: outset 1px rgba(255, 255, 255, 0.336);
+    border-radius: 10px;
+}
+.koti img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 900px;
+    border: outset 1px;
+}
+
+.koti p{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0;
+    color:black;
+    border-radius: 10px;
+}
+
+
+.tuotteet {
+    display: grid;
+    grid-template-areas:
+        'title'
+        'tuotteet';
+    margin: 2%;
+    padding: 0.5%;
+}
+
+.tuotteet h2 {
+    grid-area: title;
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em;
+    margin: 1em;
+    color: black;
+    background-color:rgba(238, 137, 152);
+    border: outset 1px rgba(238, 137, 152, 0.2);
+    border-radius: 10px;
+
+}
+.kuvaboksi{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: rgba(58, 58, 58, 0.2);
+    border: outset 1px rgba(255, 255, 255, 0.336);
+    border-radius: 10px;
+    gap: 30px;
+}
+.tuotteet img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 800px;
+    height: 450px;
+
+}
+.tuotteet p {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 0.5em;
+    margin: 0;
+    color: black;
+}
+
+.reseptiboksi {
+    display: grid;
+    grid-template-areas: 'tuotteet tuotteet tuotteet';
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: rgba(58, 58, 58, 0.2);
+    border: outset 1px rgba(255, 255, 255, 0.336);
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.tuotteet img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    border: outset 1px whitesmoke;
+}
+.reseptit-teksti p{
+    font-size: 1,5em;
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+}
+
+.otayhteytta {
+    display: grid;
+    grid-template-areas:
+        'title'
+        'tuotteet';
+    padding: 2%;
+    margin: 0.5%;
+}
+
+.otayhteyttä h2 {
+    grid-area: title;
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em;
+    margin: 1em;
+    color:black;
+    background-color:rgba(238, 137, 152);
+    border: outset 1px rgba(238, 137, 152, 0.2);
+    border-radius: 10px;
+}
+.infoboksi {
+    font-size: 1em;
+    display: grid;
+    grid-template-areas:
+        'info img';
+    padding: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    background-color: rgba(58, 58, 58, 0.2);
+    border: outset 1px rgba(255, 255, 255, 0.336);
+    border-radius: 10px;
+}
+
+.infoteksti {
+    font-size: 1.5em;
+    text-align:left;
+    padding: 0em;
+    margin: 1em;
+    color:black;
+}
+.info-kartta{
+    display: inline-flex;
+    flex: 1;
+}
+.footer {
+    padding: 3em;
+    margin: 0em;
+}
